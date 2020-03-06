@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  background-color: #1F1F1F;
+  width: 100%;
+}
+header ul {
+  display: flex;
+  justify-self: center;
+}
+
+/*# sourceMappingURL=main.css.map */
