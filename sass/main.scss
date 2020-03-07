@@ -200,12 +200,14 @@ article{
   margin-top: 65px;
   text-align:center;
   height: 450px;
+  padding-bottom: 38px;
   .contact-container{
     display: inline-block;
     width: 84%;
     background-color: white;
     padding-top: 25px;
     padding-bottom: 35px;
+    box-shadow: $shadow;
   }
   .ttl-set{
     display: flex;
@@ -264,4 +266,50 @@ article{
 }
 .comment{
   box-shadow:  4px 3px rgba(0,0,0,0.1);
+}
+
+.sections{
+  box-shadow:  0 25px rgba(0,0,0,0.2);
+}
+
+footer{
+  margin-top: 25px;
+  background-color: #E8EAEB;
+}
+.f-container{
+  padding-top: 38px;
+  text-align: center;
+  .f-box{
+    display: inline-block;
+    width: 83%;
+    height: 85px;
+    position: relative;
+    p{
+      position: absolute;
+      top: 10vh;
+      right: 38%;
+      font-weight: bold;
+      font-size: 3.7vw;
+    }
+
+    img{
+      width: 100%;
+    }
+  }
+}
+.c-wright{
+  text-align: center;
+  p{
+    font-size: 35px;
+    display: inline-block;
+    img{
+      &:first-child{
+        width: 13%;
+      }
+      &:last-child{
+        width: 25%;
+        margin-left: -10px;
+      }
+    }
+  }
 }

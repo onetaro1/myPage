@@ -220,6 +220,7 @@ article h1 {
   margin-top: 65px;
   text-align: center;
   height: 450px;
+  padding-bottom: 38px;
 }
 
 #contact .contact-container {
@@ -228,6 +229,7 @@ article h1 {
   background-color: white;
   padding-top: 25px;
   padding-bottom: 35px;
+  box-shadow: 35px 26px rgba(0, 0, 0, 0.2);
 }
 
 #contact .ttl-set {
@@ -297,4 +299,55 @@ article h1 {
 
 .comment {
   box-shadow: 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.sections {
+  box-shadow: 0 25px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  margin-top: 25px;
+  background-color: #E8EAEB;
+}
+
+.f-container {
+  padding-top: 38px;
+  text-align: center;
+}
+
+.f-container .f-box {
+  display: inline-block;
+  width: 83%;
+  height: 85px;
+  position: relative;
+}
+
+.f-container .f-box p {
+  position: absolute;
+  top: 10vh;
+  right: 38%;
+  font-weight: bold;
+  font-size: 3.7vw;
+}
+
+.f-container .f-box img {
+  width: 100%;
+}
+
+.c-wright {
+  text-align: center;
+}
+
+.c-wright p {
+  font-size: 35px;
+  display: inline-block;
+}
+
+.c-wright p img:first-child {
+  width: 13%;
+}
+
+.c-wright p img:last-child {
+  width: 25%;
+  margin-left: -10px;
 }
