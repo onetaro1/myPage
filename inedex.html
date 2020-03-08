@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>onetaro portfolio</title>
   <link rel="stylesheet" href="sass/main.css">
+  <link rel="stylesheet" href="sass/anime.css">
   <script src="https://kit.fontawesome.com/d857a2538c.js" crossorigin="anonymous"></script>
 </head>
 
   <header>
     <ul>
-      <li class="adpc"> <img src="img/tr1.png" alt=""> </li>
-      <li><a href="">home</a></li>
-      <li><a href="">about</a></li>
-      <li><a href="">work</a></li>
-      <li><a href="">contact</a></li>
-      <li class="adpc"> <img src="img/tr2.png" alt=""> </li>
+      <li class="adpc"> <img src="img/tr1.png" alt=""></li>
+      <li id="showBtn" class="for-ev1"> <p>menu</p> </li>
+      <li class="mAnime"><a href="">home</a></li>
+      <li class="mAnime"><a href="">about</a></li>
+      <li class="mAnime"><a href="">work</a></li>
+      <li class="mAnime"><a href="">contact</a></li>
+      <li id="hideBtn" class="adpc event1"> <img src="img/tr2.png" alt=""> </li>
     </ul>
   </header>
   <div class="sections">
@@ -130,5 +132,11 @@
         <img src="img/cy2.png" alt="" ></p>
       </div>
     </footer>
+
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <script src="js/query.js"></script>
 </body>
 </html>

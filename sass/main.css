@@ -351,3 +351,11 @@ footer {
   width: 25%;
   margin-left: -10px;
 }
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

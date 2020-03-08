@@ -1,0 +1,20 @@
+.event1{
+  margin-left:-8%;
+}
+
+.for-ev1{
+  position: absolute;
+  left: 17%;
+  background-color: white;
+  transform: skewX(25deg);
+  width: 55px;
+  margin-top: 5px;
+  color: black;
+  padding-top:3px;
+  padding-bottom: 2px;
+}
+.for-ev1 > p{
+  transform: skewX(-25deg); 
+  font-size: 10px; 
+  line-height: 45px;
+}
