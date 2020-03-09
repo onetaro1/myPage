@@ -38,4 +38,7 @@ $(function(){
     $('.adpc').hide();
     $('#showBtn').show();
   }
+
+
+  // setion 1 anime
 });

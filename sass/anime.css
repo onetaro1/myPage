@@ -18,3 +18,51 @@
   font-size: 10px; 
   line-height: 45px;
 }
+
+.rt{
+  /* transform: rotate(90deg) translateY(-50%); */
+  /* ↓　アニメーション */
+  animation: rightSlideIn 2670ms ease 0s 1 normal;
+
+  /* padding-top: 320px; */
+}
+.lta{
+  animation: leftSlideIn 2600ms ease 0s 1 normal;
+  /* transform: rotate(0) translateY(0) translateX(0); */
+}
+
+@keyframes leftSlideIn{
+  0%{
+    transform: rotate(90deg) translateY(-100%) translateX(-100%);
+  }
+  50%{
+    transform: rotate(90deg) translateY(60%) translateX(-100%);
+  }
+  75%{
+    transform: rotate(0) translateY(1%) translateX(0);
+  }
+  90%{
+    transform: rotate(0) translateY(-5%) translateX(0);
+  }
+  100%{
+    transform: rotate(0) translateY(0) translateX(0);
+  }
+}
+
+@keyframes rightSlideIn{
+  0%{
+    transform: rotate(90deg) translateY(100%) translateX(-55%);
+    padding-top: 320px;
+  }
+  50%{
+    transform: rotate(90deg) translateY(-60%) translateX(-55%);
+    padding-top: 320px;
+  }
+  75%{
+    transform: rotate(0) translateY(-50%) translateX(0); padding-top: 320px;
+  }
+  100%{
+
+  }
+
+}
